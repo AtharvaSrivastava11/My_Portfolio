@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio / Atharva Srivastava</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4cdcd038a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assects/ATHARVA SRIVASTAVA.png" class="logo"> 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <h1>Hi, I'm <span>Atharva Srivastava</span><br> From India.</h1>
+            </div>
+        </div>
+    </div>
+<!--     ------about--------     -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assects/MyImage.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a dedicated second-year student deeply immersed in the ever-evolving realm of technology. Actively pursuing practical insights that seamlessly connect technological advancements with strategic business initiatives. Proficient in information gathering and analysis, with a specialized skill set in conducting thorough research to drive strategic decision-making processes.
+                        Additionally, I bring expertise in web development and design, contributing to a comprehensive skill set in the tech industry. I excel at developing innovative and efficient solutions to complex problems.
+                         I am eager to learn and grow, and I am looking for a challenging and rewarding opportunity.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links onclick=" onclick="opentab('education')">Education</p>
+                        <p class="tab-links onclick=" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('hobbies')">Hobbies and Life Learning</p>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>High School</span><br>St. Francis' College (LKO)</li>
+                            <li><span>Inter</span><br>St. Francis' College (LKO)</li>
+                            <li><span>B-tech (CSE 2nd-year)</span><br>SRMIST Chennai</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Frontend Web Development</span></li>
+                            <li><span>Data Structure and Algorithms</span></li>
+                            <li><span>Java</span></li>
+                            <li><span>Java Script</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>C & C++</span></li>
+                            <li><span>Node JS and Node Express</span></li>
+                            <li><span>Graphic Designing</span></li>
+                            <li><span>Project Management</span></li>
+                            <li><span>Team Leadership</span></li>
+                            <li><span>Networking and Communication</span></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="hobbies" >
+                        <ul>
+                            <li><span>Reading</span></li>
+                            <li><span>Traveling</span></li>
+                            <li><span>Sports: Football, Swimming, Athletic and many more...</span></li>
+                            <li><span>Photography</span></li>
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  ---------- Projects ----------   -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+
+            <div class="certificates-list">
+                <div>
+                    <h2>Spotify Frontend clone</h2>
+                    <p>I have created a Spotify frontend clone using HTML, CSS, and JavaScript, replicating the familiar user interface and design of the original Spotify platform.</p>
+                    
+                </div>
+
+                <div>
+                    <h2>Amazon Frontend clone</h2>
+                    <p>I have developed an Amazon frontend clone using HTML, CSS, and JavaScript, faithfully emulating the platform's design and interactive features. This project showcases my ability to create responsive web applications and mirror the visual appeal of the leading e-commerce platform.</p>
+                    
+                </div>
+
+                <div>
+                    <h2>Netflix Login page</h2>
+                    <p>I crafted a Netflix login page clone with HTML, CSS, and JavaScript, closely resembling the original design and interactive elements. This project exemplifies my skills in building responsive web interfaces and replicating the user experience of the popular streaming service.</p>
+                    
+                </div>
+
+                <div>
+                    <h2>TODO List Web</h2>
+                    <p>I have developed a web-based to-do list application with HTML, CSS, and JavaScript, mirroring a user-friendly interface and design for effective task management. </p>
+                    
+                </div>
+                <div>
+                    <h2>Weather Checking Web</h2>
+                    <p>I have also designed a weather-checking web page clone using HTML, CSS, and JavaScript, closely mirroring the original design and interactive elements. </p>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--  ------- Certificates --------- -->
+
+    <div id="certificates">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="work-list">
+        
+                <div class="work">
+                    <img src="assects/Forage GS.png">
+                    <div class="layer">
+                        <h3>Goldman Sachs Software Engineering Job Simulation </h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assects/Forage JPM.png">
+                    <div class="layer">
+                        <h3>J.P. Morgan Software Engineering Job Simulation </h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assects/Frontend.png">
+                    <div class="layer">
+                        <h3>Meta Frontend Web Development </h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assects/Foundation of BI.png">
+                    <div class="layer">
+                        <h3>Google Foundation of Business Intelligence</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assects/Graphic designing.png">
+                    <div class="layer">
+                        <h3>Graphic Designing</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assects/Google Analyatics.png">
+                    <div class="layer">
+                        <h3>Google Analyatics</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assects/DataScience Foundation.png">
+                    <div class="layer">
+                        <h3>Data Science Foundations</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assects/NPTEL Java.png">
+                    <div class="layer">
+                        <h3>NPTEL Programming in Java</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assects/Computer Architecture.png">
+                    <div class="layer">
+                        <h3>NPTEL Computer Architecture</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assects/AICTE AWS.png">
+                    <div class="layer">
+                        <h3>AICTE AWS AI/ML</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- ------ contact------- -->
+    
+    <div class="contact" id="contact-me">
+        <div class="container">
+            <div class="contact-content">
+             <h1>Contact Information:</h1>
+             <br>
+             <h2>Get in touch with me: </h2>
+             <p class="mail">
+               <i class="fas fa-arrow-right"></i> atharvasrivastava7@gmail.com
+             </p>
+             <br>
+
+             <h2>Or find me on:</h2>
+            
+            
+              <div class="profile-links">
+                 <a href="https://www.linkedin.com/in/atharva-srivastava-9a5b19250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                 <a href="https://github.com/AtharvaSrivastava11" target="blank"><i class="fa-brands fa-square-github"></i> Github </a>
+                 <a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="blank"><i class="fa-regular fa-envelope"></i> Gmail </a>
+
+                 <a href="">Dowmload CV</a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>@_Atharva_Srivastava_</p>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById(sidemenu);
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>
